@@ -1,0 +1,98 @@
+Arguments: 
+  /Users/lucadisanto/.nvm/versions/node/v14.8.0/bin/node /Users/lucadisanto/.nvm/versions/node/v14.8.0/bin/yarn publish
+
+PATH: 
+  /Users/lucadisanto/.nvm/versions/node/v14.8.0/bin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/lucadisanto/.nvm/versions/node/v14.8.0/bin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/sbin:/Users/lucadisanto/Library/Flutter/bin:/Users/lucadisanto/.pub-cache/bin:/Users/lucadisanto/Library/Android/sdk:/Users/lucadisanto/Library/Android/sdk/tools:/Users/lucadisanto/Library/Android/sdk/platform-tools:/usr/local/Cellar/maven/3.3.3/libexec:/Users/lucadisanto/Library/Flutter/bin:/Users/lucadisanto/.pub-cache/bin:/Users/lucadisanto/Library/Android/sdk:/Users/lucadisanto/Library/Android/sdk/tools:/Users/lucadisanto/Library/Android/sdk/platform-tools:/usr/local/Cellar/maven/3.3.3/libexec
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/lucadisanto/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:314:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:314:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:303:12)
+
+npm manifest: 
+  {
+      "name": "react-native-snap-carousel-fork",
+      "version": "3.9.0",
+      "description": "Swiper/carousel component for React Native with previews, multiple layouts, parallax images, performant handling of huge numbers of items, and RTL support. Compatible with Android & iOS.",
+      "main": "src/index.js",
+      "repository": {
+          "type": "git",
+          "url": "github.com/lukadisanto/react-native-snap-carousel-fork"
+      },
+      "keywords": [
+          "react",
+          "native",
+          "carousel",
+          "slider",
+          "swiper",
+          "flatlist",
+          "scrollview",
+          "parallax",
+          "images",
+          "infinite",
+          "scroll",
+          "scrolling",
+          "items",
+          "edge",
+          "snap",
+          "card",
+          "cards",
+          "stack",
+          "deck",
+          "tinder",
+          "android",
+          "ios",
+          "snapping",
+          "component",
+          "rtl"
+      ],
+      "author": "Luca D'Isanto",
+      "license": "BSD-3-Clause",
+      "dependencies": {
+          "prop-types": "^15.6.1",
+          "react-addons-shallow-compare": "15.6.2"
+      },
+      "peerDependencies": {
+          "react": ">=15.0.0",
+          "react-native": "*"
+      },
+      "devDependencies": {
+          "babel-eslint": "^8.2.2",
+          "eslint": "^4.19.1",
+          "eslint-config-standard": "^10.2.1",
+          "eslint-config-standard-react": "^5.0.0",
+          "eslint-plugin-import": "^2.11.0",
+          "eslint-plugin-node": "^5.2.1",
+          "eslint-plugin-promise": "^3.7.0",
+          "eslint-plugin-react": "^7.7.0",
+          "eslint-plugin-standard": "^3.0.1"
+      },
+      "homepage": "https://github.com/archriss/react-native-snap-carousel",
+      "bugs": {
+          "url": "https://github.com/archriss/react-native-snap-carousel/issues"
+      },
+      "readmeFilename": "README.md"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

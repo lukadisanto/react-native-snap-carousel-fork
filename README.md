@@ -67,12 +67,16 @@ These are live apps we've created that make heavy use of the plugin. Don't be sh
 
 ```bash
 $ npm install --save react-native-snap-carousel-fork
+or
+$ yarn add --save react-native-snap-carousel-fork
 ```
 
 If you're using Typescript you should also install type definitions:
 
 ```bash
 $ npm install --save @types/react-native-snap-carousel
+or
+$ yarn add --save @types/react-native-snap-carousel
 ```
 
 ```javascript
